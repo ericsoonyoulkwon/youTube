@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/90c744b853.js" crossorigin="anonymous"></script>
+
+    <title>YouTube</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">YouTube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <selection class="player">
+        <video controls src="video/lightAndSalt.mp4"></video>
+    </selection>
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+    <selection class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#Light</li>
+                <li>#Salt</li>
+                <li>#Crabs</li>
+            </ul>
+            <div class="titleAndBtn">
+                <span class="title clamp">
+                    Matthew 5:13-14
+                    <br><br>13 “You are the salt of the earth. But if the salt loses its saltiness, how can it be made salty again? It is no longer good for anything, except to be thrown out and trampled underfoot.
+                    <br><br>14 “You are the light of the world. A town built on a hill cannot be hidden. 15 Neither do people light a lamp and put it under a bowl. Instead they put it on its stand, and it gives light to everyone in the house. 16 In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <br>
+            <span class="views">1.1M views 1 month ago</span>
+        </div>
+        <!-- Actions -->
+        <div class="actions">
+            <li>
+                <button>
+                    <i class="active fas fa-thumbs-up"></i>
+                    <span>28K</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-thumbs-down"></i>
+                    <span>978</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-share"></i>
+                    <span>Share</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fas fa-plus"></i>
+                    <span>Save</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fab fa-font-awesome-flag"></i>
+                    <span>Report</span>
+                </button>
+            </li>
+        </div>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/avartar.jpg" alt="">
+                <div class="info">
+                    <span class="name">Eric Kwon</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </selection>
+
+    <selection class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <div class="img">
+                    <img src="image/family.jpeg" alt="" />
+                </div>
+                <div class="info">
+                    <span class="title">Christmas</span>
+                    <span class="name">Eric Kwon</span>
+                    <span class="views">30K views</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item">
+                <div class="img">
+                    <img src="image/moon.jpeg" alt="" />
+                </div>
+                <div class="info">
+                    <span class="title">Moony</span>
+                    <span class="name">Eric Kwon</span>
+                    <span class="views">10K views</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
+            <li class="item">
+                <div class="img">
+                    <img src="image/sun.jpeg" alt="" />
+                </div>
+                <div class="info">
+                    <span class="title">Sunny</span>
+                    <span class="name">Eric Kwon</span>
+                    <span class="views">20K views</span>
+                </div>
+                <button class="moreBtn"></button>
+            </li>
+        </ul> 
+    </selection>
+    </div>
+    
+</body>
+</html>
